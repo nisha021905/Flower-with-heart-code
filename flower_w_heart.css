@@ -1999,3 +1999,11 @@ h1 {
     opacity: 1;
   }
 }
+#flowerVideo {
+  position: absolute;
+  top: 10px; /* Move the video vertically */
+  left: 40px; /* Move the video horizontally */
+  width: 1056px; /* Set the width of the video */
+  height: 594px; /* Set the height of the video */
+  z-index: 1; /* Keep the video above other elements */
+}
